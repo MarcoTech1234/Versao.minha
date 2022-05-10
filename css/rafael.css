@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.bg-navbar {
+    background-image: linear-gradient(to left top, #adadad, #ffffff);
+}
+
+.btn-cor {
+    border: 1px solid #7a0d09;
+    background-color: #941510;
+    transition: 0.3s;
+    color: white;
+}
+
+.btn-cor:hover {
+    background-color: #630805;
+    transition: 0.3s;
+}
+
+#bg-font {
+    color: black;
+    transition: 0.3s;
+    font-family: Roboto;
+    font-size: 3vh;
+}
+
+#bg-font:hover {
+    color: #941510;
+    transition: 0.3s;
+}
+
+.bg-rafael {
+    background-image: url("../img/MicrosoftTeams-image.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-pesquisar {
+    transition: 0.2s;
+}
+
+.bg-pesquisar:hover {
+    transition: 0.2s;
+}
+
+.btn-noticias {
+    background-image: linear-gradient(to left top, #3073aa, #0878d4);
+}
+
+.btn-noticias:hover {
+    background-image: linear-gradient(to left top, #1e5685, #065a9e);
+}
+
+.bg-footer {
+    background-image: linear-gradient(to left top, #db1e1e, #c54a4a)
+}
+
+#redes {
+    color: white;
+    align-items: center;
+    transition: 0.3s;
+    font-size: 30px;
+}
+
+#redes:hover {
+    color: rgb(126, 126, 126);
+    transition: 0.3s;
+}
+
+#desenvolvido {
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+    font-size: 2vh;
+}
+
+.bg-red {
+    background-image: linear-gradient(to left top, #db1e1e, #c54a4a)
+}
+
+.bg-title {
+    font-family: Roboto;
+    color: #941510;
+    text-align: center;
+    font-size: 7vh;
+    -webkit-text-stroke: #7a0d09 2px;
+}
+
+.bg-title2 {
+    font-family: Roboto;
+    color: black;
+    font-size: 7vh;
+    margin-left: 5vh;
+}
+
+.btn-botao {
+    font-size: 17px;
+    color: white;
+    font-family: Roboto;
+    align-items: center;
+    background-color: #941510;
+    border: 1px solid #7a0d09;
+    border-radius: 7px;
+    transition: 0.3s;
+}
+
+.btn-botao:hover {
+    transition: 0.3s;
+    background-color: #630805;
+    color: white;
+}
+
+.bg-copyright {
+    font-family: Poppins;
+    font-size: 18px;
+}
+
+#teste {
+    padding-left: 10 0px;
+    justify-content: space-around;
+}
+
+.bg-space {
+    padding-left: 50px;
+}
+
+.bg-dropdown {
+    background: #ffffff;
+    color: #941510;
+    transition: 0.3s;
+}
+
+.bg-dropdown:hover {
+    background: #2682ce;
+    color: white;
+    transition: 0.3s
+}
+
+.d {
+    line-height: 0.9em;
+    text-decoration: none;
+    font-size: 1vh;
+    font-family: Poppins;
+}
+
+.d::after {
+    content: '';
+    width: 388px;
+    height: 2px;
+    display: block;
+    background: #941510;
+    transition: 300ms;
+}
+
+.d2 {
+    line-height: 0.9em;
+    text-decoration: none;
+    font-size: 1vh;
+    font-family: Poppins;
+}
+
+.d2::after {
+    content: '';
+    width: 250px;
+    height: 2px;
+    display: block;
+    background: #941510;
+    transition: 300ms;
+}

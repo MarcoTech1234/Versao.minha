@@ -51,7 +51,8 @@
 }
 
 .bg-footer {
-    background-image: linear-gradient(to left top, #db1e1e, #c54a4a)
+    background-image: linear-gradient(to left top, #db1e1e, #c54a4a);
+    width: 100%;
 }
 
 #redes {

@@ -181,3 +181,23 @@
     margin-right: auto;
     width: 6em;
 }
+
+.ml-1 {
+    margin-left: ($spacer * .25) !important;
+    text-decoration: none;
+}
+
+.c {
+    text-decoration: none;
+}
+
+.img-my {
+    height: 5rem;
+    min-height: 10rem;
+    max-height: 10rem;
+    min-width: 18rem;
+    max-width: 18rem;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
